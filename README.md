@@ -28,3 +28,11 @@ A simple JavaFX application that lets users input text and check whether it qual
 - Java JDK 21 or later
 - JavaFX SDK 21 or later
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/5028c338-2b07-48fb-bb97-6c87e37287cc)
+![image](https://github.com/user-attachments/assets/fe0a23d6-cd92-4472-8d06-54ee9ca8f606)
+
+
+
+
+
