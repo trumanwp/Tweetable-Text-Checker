@@ -57,5 +57,13 @@ public class Word {
                 + countParagraphs() + " paragraphs";
     }
 
+    public String tweet(){
+        if (countCharacters() <= 280){
+            return "Yes, this tweet meets the required length.";
+        } else {
+            return "No, this tweet is too long.";
+        }
+    }
+
 
 }
