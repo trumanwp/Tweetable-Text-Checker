@@ -28,8 +28,3 @@ A simple JavaFX application that lets users input text and check whether it qual
 - Java JDK 21 or later
 - JavaFX SDK 21 or later
 
-### Run the App
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/trumanwp/tweetable-text-checker.git
