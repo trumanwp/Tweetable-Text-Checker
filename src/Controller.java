@@ -47,13 +47,17 @@ public class Controller {
         paragraphCountLabel.setText("Paragraph Count: " + paragraphCount);
         characterCountLabel.setText("Character Count: " + characterCount);
 
+
+        // Calling tweet method
         String tweetStatus = text.tweet();
 
-        // Assuming 'tweetLabel' is the label you created to display the tweetable status
+        // Setting label text to method return
         tweetLabel.setText(tweetStatus);
 
+        // Changing text colour to suit background colour change
         tweetLabel.setTextFill(Color.WHITE);
 
+        // Changing background colour based on method return
         if (text.countCharacters() <= 280) {
             tweetLabel.setBackground(Background.fill(Color.GREEN)); // Change text color to green
         } else {
