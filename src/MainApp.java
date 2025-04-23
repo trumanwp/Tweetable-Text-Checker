@@ -15,7 +15,7 @@ import javafx.stage.Stage;
             // Set the scene and stage
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Text Analysis App");
+            primaryStage.setTitle("Tweetable Text Checker");
             primaryStage.show();
         }
 
